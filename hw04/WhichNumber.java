@@ -25,8 +25,8 @@
 //  15: Is it greater than 6?
 //  16: Is it 7?
 //  17: Is it less than 3?
-//  19: Is it 1?
-//  20: IS it 5?
+//  18: Is it 1?
+//  19: Is it 5?
 
 //############################ CODE ################################
 
@@ -228,7 +228,178 @@ public class WhichNumber {
         }
         else if(answer1.equals( "n" ) || answer1.equals( "N" )){
             
+            System.out.println("Is the number divisible by 3? ");
+            String answer11 = myScanner.nextLine();
+                    
+            //------------------- Question 11 --------------------
+                    
+            if(answer11.equals( "y" ) || answer11.equals( "Y" )){
+                    
+                System.out.println("When divided by 3 is the result greater than 1? ");
+                String answer12 = myScanner.nextLine();
+                    
+                //------------------- Question 12 --------------------
+                    
+                if(answer12.equals( "y" ) || answer12.equals( "Y" )){
+                    
+                System.out.println("Is the number 9? ");
+                String answer13 = myScanner.nextLine();
+                    
+                //------------------- Question 13 -------------------
+                    
+                if(answer13.equals( "y" ) || answer13.equals( "Y" )){
+                    
+                    System.out.println("Yay!");
+                    
+                }
+                else if(answer13.equals( "n" ) || answer13.equals( "N" )){
+                     
+                    System.out.println("Liar.");
+                        
+                }
+                else{
+                        
+                    System.out.println("Invalid input!");
+                        
+                }//-------------------- End 13 ----------------------
+                    
+                }
+                else if(answer12.equals( "n" ) || answer12.equals( "N" )){
+                     
+                    System.out.println("Is the number 3? ");
+                    String answer14 = myScanner.nextLine();
+                    
+                    //------------------- Question 14 -------------------
+                    
+                    if(answer14.equals( "y" ) || answer14.equals( "Y" )){
+                    
+                        System.out.println("Yay!");
+                    
+                    }
+                    else if(answer14.equals( "n" ) || answer14.equals( "N" )){
+                     
+                        System.out.println("Liar.");
+                        
+                    }
+                    else{
+                        
+                        System.out.println("Invalid input!");
+                        
+                    }//-------------------- End 14 ----------------------
+                        
+                }
+                else{
+                        
+                    System.out.println("Invalid input!");
+                        
+                }//-------------------- End 12 -----------------------
+                    
+            }
+            else if(answer11.equals( "n" ) || answer11.equals( "N" )){
             
+                System.out.println("Is it greater than 6? ");
+                String answer15 = myScanner.nextLine();
+                    
+                //------------------- Question 15 -------------------
+                    
+                if(answer15.equals( "y" ) || answer15.equals( "Y" )){
+                    
+                    System.out.println("Is the number 7? ");
+                    String answer16 = myScanner.nextLine();
+                    
+                    //------------------- Question 16 -------------------
+                    
+                    if(answer16.equals( "y" ) || answer16.equals( "Y" )){
+                    
+                        System.out.println("Yay!");
+                    
+                    }
+                    else if(answer16.equals( "n" ) || answer16.equals( "N" )){
+                     
+                        System.out.println("Liar.");
+                        
+                    }
+                    else{
+                        
+                        System.out.println("Invalid input!");
+                        
+                    }//-------------------- End 16 ----------------------
+                    
+                }
+                else if(answer15.equals( "n" ) || answer15.equals( "N" )){
+                     
+                    System.out.println("Is it less than 3? ");
+                    String answer17 = myScanner.nextLine();
+                    
+                    //------------------- Question 17 -------------------
+                    
+                    if(answer17.equals( "y" ) || answer17.equals( "Y" )){
+                    
+                        System.out.println("Is the number 1? ");
+                        String answer18 = myScanner.nextLine();
+                    
+                        //------------------- Question 18 -------------------
+                    
+                        if(answer18.equals( "y" ) || answer18.equals( "Y" )){
+                    
+                            System.out.println("Yay!");
+                    
+                        }
+                        else if(answer18.equals( "n" ) || answer18.equals( "N" )){
+                     
+                            System.out.println("Liar.");
+                        
+                        }
+                        else{
+                        
+                            System.out.println("Invalid input!");
+                        
+                        }//-------------------- End 18 ----------------------
+                    
+                    }
+                    else if(answer17.equals( "n" ) || answer17.equals( "N" )){
+                     
+                        System.out.println("Is the number 5? ");
+                        String answer19 = myScanner.nextLine();
+                    
+                        //------------------- Question 19 -------------------
+                    
+                        if(answer19.equals( "y" ) || answer19.equals( "Y" )){
+                    
+                            System.out.println("Yay!");
+                    
+                        }
+                        else if(answer19.equals( "n" ) || answer19.equals( "N" )){
+                     
+                            System.out.println("Liar.");
+                        
+                        }
+                        else{
+                        
+                            System.out.println("Invalid input!");
+                        
+                        }//-------------------- End 19 ----------------------
+                        
+                    }
+                    else{
+                        
+                        System.out.println("Invalid input!");
+                        
+                    }//-------------------- End 17 ----------------------
+                        
+                }
+                else{
+                        
+                    System.out.println("Invalid input!");
+                        
+                }//-------------------- End 15 ----------------------
+            
+            }
+            else{
+                        
+                System.out.println("Invalid input!");
+                        
+            }//-------------------- End 11 -----------------------
             
         }
         else{
@@ -236,7 +407,6 @@ public class WhichNumber {
             System.out.println("Invalid input!");
             
         }//------------------- End 1 ------------------------
-
 
     }
 
