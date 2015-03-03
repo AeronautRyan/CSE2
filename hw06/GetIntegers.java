@@ -23,7 +23,8 @@ public class GetIntegers{
             int scannedValue = myScanner.nextInt();
             if(scannedValue < 0){
                 System.out.println("Invalid input.");
-                break;
+                forCounter = forCounter - 1;
+                scannedValue = 0;
             }
             
             sumIntegers += scannedValue;
