@@ -15,7 +15,7 @@ public class ArrayInputs{
         System.out.println("Enter a positive integer for the size of the array.");
         arrayValue(myScanner.nextInt());
         
-        int[]userArray = new Int[arrayValue];
+        int[]userArray = new int[arrayValue];
         
         System.out.println("Enter array values: ");
         for(int i = 0; i < arrayValue; i++){
