@@ -151,8 +151,8 @@ public class Methods{
             
             System.out.println("Would you like another sentence? (y/n)");
             String cont = myScanner.nextLine();
-            while(cont == "n"){
-                break;
+            if(cont.equals("n")){
+                System.exit(0);
             }
             
         }

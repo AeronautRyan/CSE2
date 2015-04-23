@@ -5,6 +5,8 @@
 //This program allows the user to search arrays and stuff.
 
 import java.util.Scanner;
+import java.util.InputMismatchException;
+
 public class Arrays{
     
     public static void main(String[]args){
