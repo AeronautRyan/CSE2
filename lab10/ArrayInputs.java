@@ -11,23 +11,33 @@ public class ArrayInputs{
         
         Scanner myScanner = new Scanner(System.in);
         boolean isInt = false;
-        int arrayValue = 0;
+        int arraySize = 0;
         System.out.println("Enter a positive integer for the size of the array.");
-        arrayValue(myScanner.nextInt());
+        arraySize = arrayValue();
         
-        int[]userArray = new int[arrayValue];
+        int[]userArray = new int[arraySize];
         
         System.out.println("Enter array values: ");
-        for(int i = 0; i < arrayValue; i++){
+        for(int i = 0; i < arraySize; i++){
             
             userArray[i] = myScanner.nextInt();
             
         }
         
+        System.out.println("The array is: ");
+        for(int i = 0; i < userArray.length; i++){
+            
+            System.out.print(" " + userArray[i]);
+            
+        }
+        System.out.println();
+        
     }
     
-    public static int arrayValue(myScanner.nextInt()){
+    public static int arrayValue(){
         
+        Scanner myScanner = new Scanner(System.in);
+        boolean isInt = false;
         int arrayValue = 0;
         while(isInt == false){
             
